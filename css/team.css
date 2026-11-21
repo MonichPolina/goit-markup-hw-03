@@ -1,0 +1,36 @@
+.team{
+    background-color: #f4f4fd;
+}
+.section-title{
+ font-size: 36px;
+ line-height: 1.11111;
+ letter-spacing: 0.02em;
+ text-align: center;
+color: #2e2f42;
+}
+.member-name{
+ font-size: 20px;
+ line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+ color: #2e2f42;
+font-weight: 500
+}
+.desc{
+   
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.team > li {
+    background-color: #2e2f42;
+}
+.team-card{
+    padding: 32px 16px;
+    width: 264px;
+    height: 120px;
+    color: #ffffff;
+}

@@ -1,0 +1,61 @@
+.header > a {
+    text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:focus {
+     color: #404bbf;
+
+}
+
+.link{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455; 
+        text-decoration: none;
+}
+
+.web-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none
+}
+
+.studio-logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none
+}
+.address{
+    font-style: normal;
+}
+
+.link{
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+ letter-spacing: 0.02em;
+color: #434455;
+font-style: normal
+    }
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none
+}
