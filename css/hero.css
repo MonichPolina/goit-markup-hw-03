@@ -4,7 +4,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+background: #4d5ae5;
+flex-grow: 0;
+width: 169px;
+height: 56px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -20,5 +23,20 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     letter-spacing: 0.02em;
     color: #fff;
     line-height: 1.07;
-    
+    align-items: center;
+}
+.hero{
+    padding-top: 188px;
+        padding-bottom: 188px;
+        padding-left: 141px;
+        padding-right: 141px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

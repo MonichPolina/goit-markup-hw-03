@@ -5,6 +5,14 @@
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+
+.features-all{
+ display: flex;    
+ align-items: center;
+ gap: 24px;
+
+}
+
 .features-text{
         font-weight: 400;
         font-size: 16px;
@@ -15,4 +23,12 @@
 
 a{
         text-decoration: none
+}
+
+.features-li{
+        width: calc((100% - 3 * 24px)/4);
+}
+
+.features-title{
+        visibility: hidden;
 }

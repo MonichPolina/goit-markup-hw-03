@@ -1,11 +1,11 @@
 
 .section-title{
-
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 72px;
 }
 .member-name{
     font-family: "Roboto",sans-serif;
@@ -14,6 +14,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: start;
 }
 .desc{
     font-family: "Roboto", sans-serif;
@@ -22,4 +23,22 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: start;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    
+}
+
+.portfolio-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+
+.portfolio-item{
+width: calc((100%-48px) / 3);
+
 }
