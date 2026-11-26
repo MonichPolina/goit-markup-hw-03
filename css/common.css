@@ -6,6 +6,8 @@ body{
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .main-title{
@@ -37,3 +39,13 @@ ul {
  address a:focus{
     color: #404bbf;
  }
+.container{
+    max-width: 1158px;
+}
+
+.sr-only{
+    visibility: hidden;
+}
+h1,h2,h3,p {
+    margin: 0;
+}

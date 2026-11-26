@@ -28,7 +28,7 @@ a{
 .features-li{
         width: calc((100% - 3 * 24px)/4);
 }
-
-.features-title{
-        visibility: hidden;
+.features-section{
+        padding-top: 120px;
+        padding-bottom: 120px;
 }

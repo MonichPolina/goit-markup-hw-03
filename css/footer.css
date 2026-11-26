@@ -12,7 +12,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-
+    width: 264px;
 }
 .studio-logo-footer {
     font-weight: 700;
@@ -31,9 +31,7 @@
  
 }
 
-.footer-container{
-    width: 264px;
-    height: 112px;
- 
-   
+.container-footer{
+ max-width: 100%;
+
 }
