@@ -39,13 +39,18 @@ ul {
  address a:focus{
     color: #404bbf;
  }
-.container{
-    max-width: 1158px;
-}
 
 .sr-only{
-    visibility: hidden;
+   overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
 }
 h1,h2,h3,p {
     margin: 0;
 }
+ .container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }

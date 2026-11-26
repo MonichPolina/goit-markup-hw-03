@@ -17,6 +17,7 @@ border-radius: 4px;
 }
 .hero{
     background: #2e2f42;
+    text-align: center;
 }
 .hero-title{
     text-align: center;
@@ -34,11 +35,4 @@ border-radius: 4px;
         padding-right: 141px;
     display: flex;
     justify-content: center;
-}
-
-.hero-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

@@ -1,6 +1,6 @@
 .header > a {
     text-decoration: none;
- 
+ border-bottom: 1px solid #e7e0fc;
 }
 
 .navigation:hover,
@@ -51,10 +51,8 @@
 .address{
     font-style: normal;
     margin-left: auto;
-    margin-right: 156px;
+  
 }
-
-
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -65,15 +63,14 @@
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 156px;
-    margin-left: 76px;
+
   
 }
 
 .container-header{
     display: flex;
     align-items: center;
- 
+    gap: 76px;
 }
 
 .navigation-feat {
@@ -85,6 +82,6 @@
 .navigation-adress {
     display: flex;
     gap: 40px;
- 
+ margin-left: auto;
 }
 
