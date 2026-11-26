@@ -1,6 +1,14 @@
 .header > a {
     text-decoration: none;
- border-bottom: 1px solid #e7e0fc;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    
+ }
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navigation:hover,
@@ -17,17 +25,9 @@
     color: #434455; 
     text-decoration: none;
     font-style: normal;
-    padding-top: 24px;
-        padding-bottom: 24px;
-        display: block;
-   
 }
 
-.main-title{
-    padding-top: 24px;
-        padding-bottom: 24px;
-        display: block;
-}
+
 
 .web-logo {
     font-weight: 700;
@@ -51,7 +51,7 @@
 .address{
     font-style: normal;
     margin-left: auto;
-  
+   
 }
 
 .logo{
@@ -63,16 +63,12 @@
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-
   
 }
 
-.container-header{
-    display: flex;
-    align-items: center;
-    gap: 76px;
+.features{
+    margin-left: 76px;
 }
-
 .navigation-feat {
     display: flex;
     gap: 40px;
@@ -82,6 +78,6 @@
 .navigation-adress {
     display: flex;
     gap: 40px;
- margin-left: auto;
+ 
 }
 
