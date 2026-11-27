@@ -49,8 +49,14 @@ ul {
 h1,h2,h3,p {
     margin: 0;
 }
- .container{
+.container{
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
  }
+
+.main-title{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}

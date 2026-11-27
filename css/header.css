@@ -27,8 +27,6 @@
     font-style: normal;
 }
 
-
-
 .web-logo {
     font-weight: 700;
     font-size: 18px;
@@ -78,6 +76,10 @@
 .navigation-adress {
     display: flex;
     gap: 40px;
- 
+}
+.navigation-adress a {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
